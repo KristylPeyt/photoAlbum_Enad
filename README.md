@@ -16,8 +16,8 @@ The album is organized into five categories: **Nature**, **Festivals**, **Food**
 
 ## Categories & Highlights
 
-**Page 1: Nature and Landscapes**
-Explore the breathtaking natural beauty of the Philippines—from misty mountain terraces and majestic volcanoes to pristine beaches, lush forests, and vibrant coral reefs. Each photo captures the wonder, serenity, and raw splendor of the country’s most iconic landscapes.
+**</b>Page 1: Nature and Landscapes</b>**
+<i>Explore the breathtaking natural beauty of the Philippines—from misty mountain terraces and majestic volcanoes to pristine beaches, lush forests, and vibrant coral reefs. Each photo captures the wonder, serenity, and raw splendor of the country’s most iconic landscapes.</i>
 
 <details>
 <summary>🌿 Nature (20 Images)</summary>
@@ -45,8 +45,8 @@ Explore the breathtaking natural beauty of the Philippines—from misty mountain
 
 </details>
 
-**Page 2: Festivals**
-Celebrate the vibrant spirit of the Philippines through its colorful festivals. From grand street parades and lively dances to rich cultural traditions, each event showcases the nation’s heritage, faith, and joyful community life.
+**<b>Page 2: Festivals</b>**
+<i>Celebrate the vibrant spirit of the Philippines through its colorful festivals. From grand street parades and lively dances to rich cultural traditions, each event showcases the nation’s heritage, faith, and joyful community life.</i>
 
 <details>
 <summary>🎉 Festivals (20 Images)</summary>
@@ -74,8 +74,8 @@ Celebrate the vibrant spirit of the Philippines through its colorful festivals. 
 
 </details>
 
-**Page 3: Food & Delicacies**
-Savor the rich flavors of Filipino cuisine, from traditional favorites to regional specialties. This page showcases iconic dishes that reflect the Philippines’ diverse culinary heritage and vibrant food culture.
+**<b>Page 3: Food & Delicacies</b>**
+<i>Savor the rich flavors of Filipino cuisine, from traditional favorites to regional specialties. This page showcases iconic dishes that reflect the Philippines’ diverse culinary heritage and vibrant food culture.</i>
 
 <details>
 <summary>🍲 Food (20 Images)</summary>
@@ -103,8 +103,8 @@ Savor the rich flavors of Filipino cuisine, from traditional favorites to region
 
 </details>
 
-**Page 4: Beaches**
-Discover the Philippines’ stunning coastline, from powdery white sands to crystal-clear waters. This page highlights serene shores, hidden coves, and vibrant island escapes perfect for relaxation and adventure.
+**<b>Page 4: Beaches</b>**
+<i>Discover the Philippines’ stunning coastline, from powdery white sands to crystal-clear waters. This page highlights serene shores, hidden coves, and vibrant island escapes perfect for relaxation and adventure.</i>
 
 <details>
 <summary>🏖️ Beaches (20 Images)</summary>
@@ -132,8 +132,8 @@ Discover the Philippines’ stunning coastline, from powdery white sands to crys
 
 </details>
 
-**Page 5: Historical & Heritage Sites**
-Explore the Philippines’ rich history and cultural heritage through its iconic landmarks, monuments, and ancestral sites. This page highlights places that tell the story of the nation’s past, traditions, and enduring legacy.
+**<b>Page 5: Historical & Heritage Sites</b>**
+<i>Explore the Philippines’ rich history and cultural heritage through its iconic landmarks, monuments, and ancestral sites. This page highlights places that tell the story of the nation’s past, traditions, and enduring legacy.</i>
 
 <details>
 <summary>🏛️ Heritage (20 Images)</summary>
@@ -193,59 +193,59 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 ## Screenshot of Sample Output
 
 <p align="center">
-Home Page: Serves as the main gateway, welcoming users and providing quick access to all photo categories.
+<b><i>Home Page:</b> Serves as the main gateway, welcoming users and providing quick access to all photo categories.</i>
+&nbsp;&nbsp;
+
   <img src="screenshots/1.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;&nbsp;&nbsp;
 <p align="center">
-Nature and Landscapes Page: Showcases the Philippines’ breathtaking natural wonders, from mountains and waterfalls to islands and coral reefs.
+<b><i>Nature and Landscapes Page:</b> Showcases the Philippines’ breathtaking natural wonders, from mountains and waterfalls to islands and coral reefs.</i>
+&nbsp;&nbsp;
+
   <img src="screenshots/2.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;
 <p align="center">
   <img src="screenshots/3.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;&nbsp;&nbsp;
 <p align="center">
-Festivals Page: Highlights the vibrant and diverse cultural celebrations of the Philippines through colorful images and lively events.
+<b><i>Festivals Page:</b> Highlights the vibrant and diverse cultural celebrations of the Philippines through colorful images and lively events.</i>
+&nbsp;&nbsp;
   <img src="screenshots/4.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;
 <p align="center">
   <img src="screenshots/5.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;&nbsp;&nbsp;
 <p align="center">
-Food & Delicacies Page: Showcases the rich and flavorful Filipino cuisine, featuring iconic dishes and local specialties.
+<b><i>Food & Delicacies Page:</b> Showcases the rich and flavorful Filipino cuisine, featuring iconic dishes and local specialties.</i>
+&nbsp;&nbsp;
   <img src="screenshots/6.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;
 <p align="center">
   <img src="screenshots/7.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;&nbsp;&nbsp;
 <p align="center">
-Beaches Page: Highlights the Philippines’ stunning coastal destinations, featuring white sands, crystal-clear waters, and island paradises.
+<b><i>Beaches Page:</b> Highlights the Philippines’ stunning coastal destinations, featuring white sands, crystal-clear waters, and island paradises.</i>
+&nbsp;&nbsp;&nbsp;
   <img src="screenshots/8.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;
 <p align="center">
   <img src="screenshots/9.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;&nbsp;&nbsp;
 <p align="center">
-Historical & Heritage Sites Page: Showcases the Philippines’ rich history and culture through landmarks, monuments, and heritage sites.
+<b><i>Historical & Heritage Sites Page:</b> Showcases the Philippines’ rich history and culture through landmarks, monuments, and heritage sites.</i>
+&nbsp;&nbsp;
   <img src="screenshots/10.png" alt="Sample Output" width="600">
 </p>
-
+&nbsp;
 <p align="center">
   <img src="screenshots/11.png" alt="Sample Output" width="600">
 </p>
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/KristylPeyt/photoAlbum_Enad.git
-```
