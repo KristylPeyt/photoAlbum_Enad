@@ -1,4 +1,4 @@
-# My Philippine Photo Album
+# photoAlbum_Enad
 
 ## Program: Bachelor of Science in Information Technology
 
