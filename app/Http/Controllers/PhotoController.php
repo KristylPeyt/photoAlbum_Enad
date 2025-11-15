@@ -160,6 +160,7 @@ class PhotoController extends Controller
         // R
         ],
     ];
+
     // Home page
     public function index()
     {
@@ -168,6 +169,7 @@ class PhotoController extends Controller
             'previews' => $this->previews
         ]);
     }
+
 
     // Category page
     public function category($slug)
@@ -183,5 +185,3 @@ class PhotoController extends Controller
         ]);
     }
 }
-
-

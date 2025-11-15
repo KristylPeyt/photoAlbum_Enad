@@ -1,8 +1,9 @@
 @extends('pages.layout')
 
 @section('content')
-<h2 class="category-title">{{ $title }}</h2>
-
+<center><h1 class="category-title">{{ $title }}</h1></center>
+&nbsp;
+&nbsp;
 <a class="back" href="{{ route('home') }}">← Back to Home</a>
 
 <div class="photo-grid">

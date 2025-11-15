@@ -10,9 +10,7 @@
   </div>
 </section>
 </center>
-
-
-        <!-- Preview images -->
+<!-- Preview images -->
         <div class="preview-grid">
             @foreach($categories as $slug => $name)
                 <div class="preview-category">
