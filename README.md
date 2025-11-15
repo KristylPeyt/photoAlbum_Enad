@@ -1,16 +1,10 @@
 # My Philippine Photo Album
 
-## Program
+## Program: Bachelor of Science in Information Technology
 
-**Bachelor of Science in Information Technology**
+## Program Activity Title: LAB ACTIVITY: PHOTO ALBUM WEB APPLICATION (LARAVEL FRAMEWORK)
 
-## Program Activity Title
-
-**LAB ACTIVITY: PHOTO ALBUM WEB APPLICATION (LARAVEL FRAMEWORK)**
-
-## Your Name
-
-**Kristyl Faith Enad**
+## Kristyl Faith Enad
 
 ## Site Description
 
@@ -199,12 +193,12 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 ## Screenshot of Sample Output
 
 <p align="center">
-<h2>Home Page: Serves as the main gateway, welcoming users and providing quick access to all photo categories.</h2>
+Home Page: Serves as the main gateway, welcoming users and providing quick access to all photo categories.
   <img src="screenshots/1.png" alt="Sample Output" width="600">
 </p>
 
 <p align="center">
-<h2>Nature and Landscapes Page: Showcases the Philippines’ breathtaking natural wonders, from mountains and waterfalls to islands and coral reefs.</h2>
+Nature and Landscapes Page: Showcases the Philippines’ breathtaking natural wonders, from mountains and waterfalls to islands and coral reefs.
   <img src="screenshots/2.png" alt="Sample Output" width="600">
 </p>
 
@@ -213,7 +207,7 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 </p>
 
 <p align="center">
-<h2>Festivals Page: Highlights the vibrant and diverse cultural celebrations of the Philippines through colorful images and lively events.</h2>
+Festivals Page: Highlights the vibrant and diverse cultural celebrations of the Philippines through colorful images and lively events.
   <img src="screenshots/4.png" alt="Sample Output" width="600">
 </p>
 
@@ -222,7 +216,7 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 </p>
 
 <p align="center">
-<h2>Food & Delicacies Page: Showcases the rich and flavorful Filipino cuisine, featuring iconic dishes and local specialties.</h2>
+Food & Delicacies Page: Showcases the rich and flavorful Filipino cuisine, featuring iconic dishes and local specialties.
   <img src="screenshots/6.png" alt="Sample Output" width="600">
 </p>
 
@@ -231,7 +225,7 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 </p>
 
 <p align="center">
-<h2>Beaches Page: Highlights the Philippines’ stunning coastal destinations, featuring white sands, crystal-clear waters, and island paradises.</h2>
+Beaches Page: Highlights the Philippines’ stunning coastal destinations, featuring white sands, crystal-clear waters, and island paradises.
   <img src="screenshots/8.png" alt="Sample Output" width="600">
 </p>
 
@@ -240,7 +234,7 @@ Explore the Philippines’ rich history and cultural heritage through its iconic
 </p>
 
 <p align="center">
-<h2>Historical & Heritage Sites Page: Showcases the Philippines’ rich history and culture through landmarks, monuments, and heritage sites.</h2>
+Historical & Heritage Sites Page: Showcases the Philippines’ rich history and culture through landmarks, monuments, and heritage sites.
   <img src="screenshots/10.png" alt="Sample Output" width="600">
 </p>
 
