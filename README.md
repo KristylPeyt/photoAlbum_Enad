@@ -194,58 +194,56 @@ The album is organized into five categories: **Nature**, **Festivals**, **Food**
 
 <p align="center">
 <h3><b><i>Home Page:</b> Serves as the main gateway, welcoming users and providing quick access to all photo categories.</i></h3>
-&nbsp;
 
   <img src="screenshots/1.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
 <h3><b><i>Nature and Landscapes Page:</b> Showcases the Philippines’ breathtaking natural wonders, from mountains and waterfalls to islands and coral reefs.</i></h3>
-&nbsp;
 
   <img src="screenshots/2.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
   <img src="screenshots/3.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
 <h3><b><i>Festivals Page:</b>Highlights the vibrant and diverse cultural celebrations of the Philippines through colorful images and lively events.</i></h3>
-&nbsp;
+
   <img src="screenshots/4.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
   <img src="screenshots/5.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
 <h3><b><i>Food & Delicacies Page:</b> Showcases the rich and flavorful Filipino cuisine, featuring iconic dishes and local specialties.</i></h3>
-&nbsp;
+
   <img src="screenshots/6.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
   <img src="screenshots/7.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
 <h3><b><i>Beaches Page:</b> Highlights the Philippines’ stunning coastal destinations, featuring white sands, crystal-clear waters, and island paradises.</i></h3>
-&nbsp;
+
   <img src="screenshots/8.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
   <img src="screenshots/9.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
 <h3><b><i>Historical & Heritage Sites Page:</b> Showcases the Philippines’ rich history and culture through landmarks, monuments, and heritage sites.</i></h3>
-&nbsp;
+
   <img src="screenshots/10.png" alt="Sample Output" width="600">
 </p>
-&nbsp;
+
 <p align="center">
   <img src="screenshots/11.png" alt="Sample Output" width="600">
 </p>
