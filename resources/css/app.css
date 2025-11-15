@@ -1,0 +1,547 @@
+/* ===========================
+   Reset default styles
+=========================== */
+/* Reset default styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a smooth base font & line-height for readability */
+html {
+    font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; /* Base font size */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.6; /* Better text spacing */
+    color: #4b3f4f; /* Default text color */
+    background-color: #fdf6f6; /* Base background */
+}
+
+/* Make images responsive by default */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Links inherit color & remove underline by default */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons inherit font & remove default styles */
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Lists remove bullets */
+ul,
+ol {
+    list-style: none;
+}
+
+/* ===========================
+   Body and Layout
+=========================== */
+body {
+    font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fef4f6, #f9e7f2, #f7dff0);
+    color: #4b3f4f;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+/* ===========================
+   Header
+=========================== */
+header {
+    background: linear-gradient(to right, #f7d6e0, #eac6e6);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: "Playfair Display", serif; /* Stylish elegant font */
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #4b3f4f;
+
+    /* Creative effects */
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #4b3f4f, #8a6f94);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    margin-bottom: 1.2rem;
+
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+header nav {
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    font-family: "Poppins", sans-serif; /* Clean stylish font */
+    color: #4b3f4f;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Creative hover with underline animation */
+header nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: #8e5a8e;
+    transition: width 0.3s ease;
+}
+
+header nav a:hover {
+    color: #8e5a8e;
+    transform: translateY(-2px);
+}
+
+header nav a:hover::after {
+    width: 100%;
+}
+
+/* ===========================
+   Main
+=========================== */
+main {
+    flex: 1;
+    padding: 3rem 4rem;
+
+    background: linear-gradient(
+        135deg,
+        rgba(255, 240, 246, 0.4),
+        rgba(240, 230, 255, 0.4)
+    );
+
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    animation: fadeIn 0.6s ease both;
+}
+
+/* Soft fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+//Hero
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #fde4f0, #fce1f3, #f9dff6);
+    border-radius: 24px;
+    margin: 3rem auto;
+    max-width: 950px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    background: linear-gradient(
+        90deg,
+        #6b2f6b,
+        #a3389e
+    ); /* Darker purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hero p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: #4b3f4f; /* Dark, readable color */
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+/* Sparkle animation */
+.sparkles {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 1.5rem;
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+//category title
+.category-title {
+    width: 100%; /* make sure it spans full width */
+    text-align: center; /* center text */
+    font-family: "Playfair Display", serif;
+    font-size: 2.2rem;
+    color: #4b3f4f;
+    margin: 0 auto 1.5rem auto;
+    letter-spacing: 1px;
+    display: block; /* ensure block element */
+}
+
+/* ===========================
+   Category Buttons
+=========================== */
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.category-card {
+    background-color: #eac6e6;
+    color: #4b3f4f;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    background-color: #d49ad4;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+/* ===========================
+   Preview Grid
+=========================== */
+.preview-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.preview-category {
+    text-align: center;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    width: 360px;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.preview-category:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.preview-category h4 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #7d4a7d;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+}
+
+.photo-preview {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.photo-preview img {
+    width: 170px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 14px;
+
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    cursor: pointer;
+}
+
+.photo-preview img:hover {
+    transform: scale(1.07) rotate(1deg);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* ===========================
+   Photo Grid for category pages
+=========================== */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+
+    animation: fadeIn 0.6s ease both;
+}
+
+.photo-card {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+    transition: transform 0.45s ease;
+    display: block;
+}
+
+.photo-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Optional subtle gradient overlay on hover */
+.photo-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.25)
+    );
+    opacity: 0;
+
+    transition: opacity 0.4s ease;
+}
+
+.photo-card:hover::after {
+    opacity: 1;
+}
+
+/* Soft grid fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Caption container hidden by default */
+.caption-container {
+    position: absolute;
+    bottom: -120%; /* fully hidden */
+    left: 0;
+    width: 100%;
+
+    background: rgba(255, 182, 193, 0.92); /* softer warm pink */
+    backdrop-filter: blur(6px);
+
+    padding: 14px 18px;
+    text-align: center;
+    box-sizing: border-box;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+    color: #4b2b3b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+
+    box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.15);
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: bottom 0.45s ease, opacity 0.45s ease, transform 0.45s ease;
+}
+
+/* Slide-up reveal effect */
+/* Smooth reveal on hover */
+.photo-card:hover .caption-container {
+    bottom: 0;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced title inside caption */
+.caption-container strong {
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    margin-bottom: 12px;
+
+    /* Soft fade-in motion */
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.4s ease 0.1s, transform 0.4s ease 0.1s;
+}
+
+.photo-card:hover .caption-container strong {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced description text */
+.caption-container p {
+    font-size: 0.95rem;
+    color: #ffe6f4;
+
+    margin: 0;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.45s ease 0.18s, transform 0.45s ease 0.18s;
+}
+
+.photo-card:hover .caption-container p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===========================
+   Back Button
+=========================== */
+.back {
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    padding: 0.55rem 1.3rem;
+
+    background: linear-gradient(135deg, #f5d9f2, #e4b8e3);
+    color: #4b3f4f;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(203, 150, 203, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease,
+        color 0.3s ease;
+}
+
+/* Hover effect */
+.back:hover {
+    background: linear-gradient(135deg, #d896d8, #c86dc8);
+    color: #ffffff;
+
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(170, 80, 170, 0.25);
+}
+
+/* ===========================
+   Footer
+=========================== */
+footer {
+    background: linear-gradient(135deg, #f8dbe6, #f3c4d8);
+    text-align: center;
+    padding: 1.7rem 0;
+
+    color: #4b3f4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+
+    box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(4px);
+
+    margin-top: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    animation: fadeUp 0.6s ease both;
+}
+
+/* Soft fade-up animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
